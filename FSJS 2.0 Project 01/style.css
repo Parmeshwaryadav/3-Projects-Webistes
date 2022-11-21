@@ -1,0 +1,21 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.navbar-container {
+    display: flex;
+}
+
+
+
+
+.button-group {
+    margin-left: 50rem;
+    border-radius: 1rem;
+}
+.nav-button {
+    border-radius: 0.3rem;
+    border-color: #712bf1;
+    padding: 5px;
+    color: white;
+    background-color: #712bf1;
+}
+
