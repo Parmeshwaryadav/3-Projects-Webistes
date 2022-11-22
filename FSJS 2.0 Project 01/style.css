@@ -1,9 +1,21 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
-.navbar-container {
-    display: flex;
+
+/* Root - Reusables */
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #712bf1;
+    --white-color: white;
 }
 
+.list-item {
+    text-decoration: none;
+    display: flex;
+    
+}
 
 
 
