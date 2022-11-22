@@ -1,6 +1,8 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
 /* Root - Reusables */
 * {
     margin: 0;
@@ -10,6 +12,17 @@
     --primary-color: #712bf1;
     --white-color: white;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-container {
+    display: inline-block;
+}
+.grow-list {
+
+}
+
 
 .list-item {
     text-decoration: none;
