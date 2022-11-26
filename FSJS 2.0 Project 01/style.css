@@ -7,42 +7,59 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
 }
 :root {
-    --primary-color: #712bf1;
-    --white-color: white;
+    --primary-color: #5955B3;
+    --white-color: #f1f5f9;
 }
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: gray;
 }
+/*-- Navbar Section --*/
 
 .navbar-container {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
 }
-
-
 .grow-list {
-
+    align-items: flex-start;
 }
-
-
+.list {
+    display: flex;
+    gap: 2rem; 
+}
 .list-item {
     text-decoration: none;
     display: flex;
     
 }
-
-
-
-.button-group {
-    margin-left: 50rem;
-    border-radius: 1rem;
-}
 .nav-button {
-    border-radius: 0.3rem;
-    border-color: #712bf1;
-    padding: 5px;
-    color: white;
-    background-color: #712bf1;
+    padding: 14px 20px;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--primary-color);
+    border: none;
+    font-size: medium;
+
+}
+.nav-button:hover {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    transition: 0.4s ease-out;
+    border: 1px solid var(--primary-color);
 }
 
+
+/* --banner-container */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   

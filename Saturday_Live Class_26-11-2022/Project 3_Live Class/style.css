@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #2B2923;
+    --white-color: #cbd5e1;
+
+}
+body {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1440px;
+}
+
+/* Nav Section */
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 13vh;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: 17px; 
+}
+.logo {
+    margin-left: 50px;
+}
+button {
+    padding: 12px 20px;
+    margin-right: 50px;
+    border-radius: 7px;
+    border: 1px solid #9F8F36;
+    background-color: var(--primary-color);
+    color: #9F8F36;
+    font-weight: bold;
+}
+button:hover {
+    color: aliceblue;
+    transition: 0.3s ease-in;
+}
+/* Main Section */
+main h1 {
+    font-size: 55px;  
+}
+.hero-text {
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    margin-right: 0;
+    justify-content: center;  
+}
+p {
+    position: relative;
+    right: 30px;
+}
+.hero-image-div {
+    margin-top: 1rem;
+}
+.hero-image {
+    
+    width: 1050px;
+    height: 480px;
+    margin: 0.5rem 12rem;   
+}
