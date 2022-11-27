@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Search */
+    box-sizing: border-box; /* the content will stay inside the box */
     background: #F9F5ED;
+    font-family: 'Poppins', sans-serif;
 }
 nav{
     padding: 20px 10%;
@@ -18,10 +21,8 @@ nav ul {
 nav ul li {
     list-style: none;
     margin-right: 5%;
-    /* gap: 50px; */
     font-weight: 500;
 }
-
 
 /* CSS for HERO Section */
 
@@ -30,6 +31,7 @@ main{
     align-items: center;
     justify-content: center;
     margin-left: 10%;
+    margin-top: -30px;
 }
 
 .leftmain{
@@ -43,7 +45,6 @@ main{
 .leftmain p{
     margin: 5% 0;
 }
-
 .leftmain button{
     padding: 15px 20px;
     border: none;
@@ -52,7 +53,15 @@ main{
     color: white;
     font-weight: 500;
 }
-
 .rightmain{
     width: 60%;
+}
+.rightmain {
+    margin-left: 7rem;
+}
+.first-hero-img {
+    margin-right: 10px;
+}
+.second-hero-img {
+    margin-top: 6px;
 }
