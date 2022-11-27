@@ -80,3 +80,6 @@ li:nth-child(n+2) {
     margin-top: 40px;
     padding: 1.3rem 2rem;
 }
+.heading-text span {
+    color: #5955B3;
+}
