@@ -1,2 +1,110 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root {
+    --primary-color: #BA0CC5;
+    --black-color: #000000;
+    --white-color: #f1f5f9;
+}
+body {
+    color: var(--white-color);
+    font-family: 'poppins', sans-serif;
+    background-image: url(./assets/bg.png);
+    background-size: 100rem 900px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-width: 1440px;
+}
+
+/* Navbar Section */
+
+.navbar img {
+    width: auto;
+    height: 3.5rem;
+    padding: 10px 10px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 0 10%;
+    justify-content: space-between;
+    background-color: var(--black-color);
+    width: 100rem;
+}
+.grow-list {
+    position: relative;
+    left: 90px;
+}
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    gap: 45px;
+    margin-right: 20rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
+.list::before {
+    content: '│';
+    height: 3vh;
+    position: absolute;
+    margin-inline-start: -80px;
+}
+.list::after {
+    content: '⌄';
+    height: 5vh;
+    position: absolute;
+    margin-inline-start: 45px;
+
+}
+.button-small {
+    margin-right: 90px;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    font-weight: 800;
+}
+
+/* Hero Section  */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-heading {
+    font-size: 4.5rem;
+    max-width: 60%;
+    margin-top: 100px;
+    margin-left: 300px;
+    color: var(--white-color);
+}
+.hero-description {
+    font-size: 1.7rem;
+    margin-left: 150px;
+    color: var(--white-color);
+}
+.button-large {
+    padding: 18px 50px;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    font-weight: 800;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;
+    margin-left: 130px;
+    margin-top: 40px;
+}
