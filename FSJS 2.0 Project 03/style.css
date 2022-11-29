@@ -16,12 +16,16 @@ body {
 }
 
 /*-- Navbar Section --*/
+.navbar-container img {
+    width: auto;
+    height: 3rem;
+    padding: 10px 10px;
+}
 .navbar-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 10%;
-    margin-top: 15px;
 }
 .list {
     display: flex;
@@ -29,11 +33,12 @@ body {
     list-style: none;
     justify-content: space-between;
     gap: 50px;
-    margin-right: 20rem;
-    font-weight: 600;
+    margin-right: 8rem;
+    font-weight: 800;
+    font-size: 1.3rem;
 }
-li:nth-child(n+2) {
-    color: #a1a1aa;
+li:nth-child(1) {
+    text-decoration: underline;
   }
 .nav-button {
     padding: 14px 20px;
@@ -43,7 +48,6 @@ li:nth-child(n+2) {
     border-color: var(--primary-color);
     border: none;
     font-size: medium;
-
 }
 .nav-button:hover {
     background-color: var(--white-color);
