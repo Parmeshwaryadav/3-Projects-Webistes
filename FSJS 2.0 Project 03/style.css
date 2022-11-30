@@ -13,6 +13,8 @@
 }
 body {
     font-family: 'Orbitron', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /*-- Navbar Section --*/
@@ -52,6 +54,17 @@ li:nth-child(1) {
 .search-icon svg {
     height: 2rem;
     padding: 1.2rem;
+}
+
+/* --banner-container */
+
+.hero-container {
+    display: flex;
+    gap: 60px;
+}
+.square {
+    position: absolute;
+    z-index: -1;
+    margin-left: 50px;
 
 }
-/* --banner-container */
