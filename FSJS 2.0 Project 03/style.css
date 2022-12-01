@@ -61,11 +61,35 @@ li:nth-child(1) {
 
 .hero-container {
     display: flex;
-    gap: 60px;
-    position: relative;
 }
 .square {
     position: absolute;
     z-index: -1;
-    margin-left: 20rem;
+    margin-left: 300px;
+
+}
+
+/* .star {
+    position: relative;
+    left: 48rem;
+}
+.globe {
+    position: relative;
+    left: 48rem;
+}
+.globe img {
+    height: 3.5rem;
+} */
+.hero-container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.hero-heading {
+    height: 30px;
+    text-align: center;
+    font-size: 3rem;
+    /* margin-top: -40%; */
 }
