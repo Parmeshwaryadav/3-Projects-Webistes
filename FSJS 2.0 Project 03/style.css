@@ -51,6 +51,7 @@ li:nth-child(1) {
     font-size: 1.3rem;
     color: gray;
     font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
 }
 .search-icon svg {
     height: 2rem;
@@ -61,17 +62,45 @@ li:nth-child(1) {
 
 .hero-container {
     display: flex;
+    margin-top: 30px;
 }
 .square {
     position: absolute;
     z-index: -1;
-    margin-left: 300px;
+    left: 290px;
+    top: 400px;
+    height: 20px;
+}
+.square img {
+    height: 20rem;
 
 }
+.person-hero-image {
+    margin-left: 2.5rem;
+}
+.person-hero-image img {
+    height: 32rem;
+    width: 25rem;
 
+}
 .star {
     position: relative;
-    left: 48rem;
+    left: 84rem;
+    top: 1rem;
+}
+.star img {
+    height: 3.1rem;
+    width: 3.1rem;
+}
+.star1 {
+    position: absolute;
+    top: 600px;
+    left: 700px;
+
+}
+.star1 img {
+    height: 2.5rem;
+    width: 2.5rem;
 }
 .globe {
     position: relative;
@@ -80,6 +109,8 @@ li:nth-child(1) {
 .globe img {
     height: 3.5rem;
 }
+
+/* Hero - right section  */
 .hero-container-right {
     display: flex;
     flex-direction: column;
@@ -90,22 +121,49 @@ li:nth-child(1) {
 .hero-heading {
     height: 30px;
     text-align: center;
-    font-size: 3rem;
-    margin-top: -20%;
+    font-size: 3.5rem;
+    margin-top: 8%;
 }
 .hero-description {
     text-align: center;
-    max-width: 70%;
+    max-width: 60%;
     padding-top: 30px;
     font-size: 0.89rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 .button-email {
-    padding: 4px 45px;
+    margin-top: 40px;
+    padding: 2.3px 30px;
     border: 3px solid black;
     font-size: medium;
     border-radius: 12px;
     font-size: 1.3rem;
     color: gray;
     font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
+}
+.button-join {
+    margin-left: 15px;
+    padding: 2.3px 10px;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    color: gray;
+    font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: var(--white-color);
+}
+.contact-heading {
+    text-align: center;
+    margin-top: 40px;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.icons {
+    margin-top: 20px;
+}
+.icons img {
+    margin-right: 10px;
+    height: 2.2rem;
 }
