@@ -15,7 +15,6 @@ body {
     font-family: 'Orbitron', sans-serif;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-color: gray;
 }
 
 /*-- Navbar Section --*/
@@ -68,7 +67,7 @@ li:nth-child(1) {
     position: absolute;
     z-index: -1;
     left: 290px;
-    top: 400px;
+    top: 420px;
     height: 20px;
 }
 .square img {
