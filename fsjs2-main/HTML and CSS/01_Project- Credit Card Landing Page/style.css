@@ -59,6 +59,9 @@ select option{
     display: flex;
     justify-content: center;
 }
+.hero-text {
+
+}
 .hero-section h1 {
     color: #e2e8f0;
     font-weight: var(--text-light);
