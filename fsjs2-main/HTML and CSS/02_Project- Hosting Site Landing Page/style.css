@@ -7,11 +7,16 @@
     --white-color: #FFFFFF;
 
     /* fonts */
-    --font-family-primary: ;
+    --font-family-primary: 'Epilogue', sans-serif;
+
+    --font-size-primary: 1rem;
+    --font-size-secondary: 0.812rem;
 
     /* Text */
-    --primary-text: ;
-    --secondary-text: ;
+    --font-weight-sm: 400;
+    --font-weight-md: 500;
+    --font-weight-normal: 600;
+    --font-weight-xl: 700;
 }
 
 *,
@@ -33,8 +38,7 @@ html:focus-within {
   }
   body {
     text-rendering: optimizeSpeed;
-    line-height: 1.5;
-    
+    line-height: 1.5;  
   }
 ul[role='list'] {
   list-style: none;
