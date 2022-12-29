@@ -1,4 +1,46 @@
 :root {
+    /* colors */
     --primary-color: #111010;
-    --secndary-color: #0C8BFD;   
+    --secondary-color: #0C8BFD;
+    --gray-color-: #292828;
+    --yellow-color: #FAAE4B;
+    --white-color: #FFFFFF;
+
+    /* fonts */
+    --font-family-primary: ;
+
+    /* Text */
+    --primary-text: ;
+    --secondary-text: ;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+    height: 100%
+}
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+  body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    
+  }
+ul[role='list'] {
+  list-style: none;
+}
+svg, img,
+picture {
+  max-width: 100%;
+  display: block;
 }
