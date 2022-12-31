@@ -33,18 +33,18 @@ html,
 body {
     height: 100%
 }
-html:focus-within {
-    scroll-behavior: smooth;
-  }
-  body {
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;  
-  }
-ul[role='list'] {
-  list-style: none;
-}
 svg, img,
 picture {
   max-width: 100%;
   display: block;
 }
+
+/* general stylings */
+.container {
+    --max-width: 1140px;
+    --padding: 1rem;
+
+    width: min(var(--max-width), 100% - var(--padding)*2);
+    margin-inline: auto;
+}
+
