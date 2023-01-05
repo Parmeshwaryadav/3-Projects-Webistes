@@ -323,3 +323,6 @@ ul {
 }
 
 /* pricing Crads section */
+.price-header {
+  justify-content: center;
+}
