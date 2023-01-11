@@ -9,6 +9,7 @@
   --white-accent-color: #d9d9d9;
   --gray-accent-color: #b8b7b7;
   --bgc-accent-gray: #292828;
+  --bgc-varient-color: #3e3d3d;
 
   /* fonts */
   --font-family-primary: "Poppins", sans-serif;
@@ -85,6 +86,9 @@ a {
 }
 .justify-center {
   justify-content: center;
+}
+.gap-1 {
+  gap: 0.5rem;
 }
 .gap-sm {
   gap: 2rem;
@@ -206,7 +210,7 @@ ul {
 .card-header {
   color: var(--white-color);
   text-align: center;
-  padding-top: 10%;
+  padding-top: 6rem;
 }
 .card-header h2 {
   font-size: 3.5rem;
@@ -239,7 +243,7 @@ ul {
   text-align: center;
 }
 .cards {
-  padding-top: 5%;
+  padding-top: 3rem;
 }
 .features-cards2 {
   padding-bottom: 7rem;
@@ -413,4 +417,120 @@ hr {
   border: 1px solid var(--secondary-color);
 }
 
-/* card-two */
+/* card-two => inverted*/
+
+/* pending to do */
+
+/* testimonial section */
+.testimonial-header {
+  justify-content: space-between;
+}
+.testimonial-header h4 {
+  max-width: 60%;
+  font-size: 2.9rem;
+}
+.testimonial-header p {
+  color: var(--gray-accent-color);
+}
+
+/* testimonial carousel */
+.scrollbar {
+  overflow-x: scroll;
+  /* scrollbar-color: var(--secondary-color); */
+  padding-bottom: 5rem;
+}
+.scrollbar::-webkit-scrollbar {
+  height: 7px;
+  background-color: var(--gray-accent-color);
+}
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(238, 13, 13, 0.5);
+}
+.carousel {
+  gap: 6rem;
+  margin-left: 8vw;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.carousel p {
+  color: var(--white-color);
+}
+.user-name {
+  padding-top: 2.1rem;
+}
+.paragrah-carousel {
+  padding-top: 2rem;
+  font-size: 1.2rem;
+}
+.carousel-one {
+  max-width: 50%;
+  height: 22rem;
+  background-color: var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+}
+.stars {
+  width: 1.3rem;
+  padding-top: 1.4rem;
+}
+
+/* right carousel */
+
+/* yet to style */
+
+/* signup section */
+.signUp {
+  margin-top: 2rem;
+}
+.signUp p {
+  font-size: 3rem;
+  color: var(--white-color);
+  font-weight: 500;
+  text-align: center;
+}
+.input-style {
+  padding: 1rem;
+  background-color: var(--bgc-varient-color);
+  color: var(--gray-accent-color);
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 4px 5px 30px rgb(0 0 0 / 0.2);
+}
+.signUp-bg-area {
+  margin-top: 2rem;
+  background-color: var(--bgc-varient-color);
+  width: 62rem;
+  justify-content: center;
+  padding: 2.4rem;
+  border-radius: 2rem;
+}
+input {
+  width: 14rem;
+  padding: 1.5rem;
+}
+.signup-btn {
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 2rem;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Footer */
+footer ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: ; */
+  place-content: ce;
+  grid-template-areas:
+    "company" "header"
+    "main" "main"
+    "footer" "footer";
+}
