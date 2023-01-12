@@ -501,12 +501,13 @@ hr {
   box-shadow: 4px 5px 30px rgb(0 0 0 / 0.2);
 }
 .signUp-bg-area {
-  margin-top: 2rem;
+  margin-top: 3rem;
   background-color: var(--bgc-varient-color);
   width: 62rem;
   justify-content: center;
   padding: 2.4rem;
   border-radius: 2rem;
+  margin-bottom: 3rem;
 }
 input {
   width: 14rem;
@@ -527,10 +528,16 @@ input {
 footer ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* grid-template-rows: ; */
-  place-content: ce;
-  grid-template-areas:
-    "company" "header"
-    "main" "main"
-    "footer" "footer";
+  place-content: center;
+  padding: 3rem;
+  align-items: center;
+}
+footer img {
+  padding: 1.5rem;
+}
+footer h4 a {
+  color: var(--white-color);
+}
+footer li {
+  padding-top: 1rem;
 }
