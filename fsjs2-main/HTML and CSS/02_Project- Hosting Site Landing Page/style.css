@@ -13,6 +13,7 @@
 
   /* fonts */
   --font-family-primary: "Poppins", sans-serif;
+  --font-xs: clamp(1rem, 10vw ,3rem)
 
   --font-size-primary: 1rem;
   --font-size-secondary: 0.812rem;
@@ -64,6 +65,7 @@ a {
   margin-inline: auto;
   padding: 1rem;
   padding-top: 1.6rem;
+  overflow: hidden;
 }
 .container-inverted {
   max-width: 1300px;
@@ -102,7 +104,9 @@ a {
 .flex-wrap {
   flex-wrap: wrap;
 }
-
+.text-color-white {
+  color: var(--white-color);
+}
 /* btn styles */
 .btn-primary {
   border: none;
@@ -165,7 +169,7 @@ ul {
   max-width: 50%;
 }
 .left-hero-sction > h1 {
-  font-size: clamp(2rem, 10vw, 4rem);
+  font-size: clamp(2rem, 8vw, 4.5rem);
   line-height: 5rem;
   color: var(--white-color);
 }
@@ -370,7 +374,7 @@ ul {
   font-weight: 600;
 }
 .card-one > h3 > small {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   color: var(--gray-color-);
 }
 .sub-card-header {
@@ -418,8 +422,24 @@ hr {
 }
 
 /* card-two => inverted*/
-
-/* pending to do */
+.card-two {
+  background-color: var(--secondary-color);
+}
+.card-two P {
+  color: var(--white-color);
+}
+.card-two h3 small {
+  color: #85c5fe;
+}
+.card-two-heder {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--white-color);
+}
+.btn-card-inverted {
+  background-color: var(--white-color);
+  color: var(--secondary-color);
+}
 
 /* testimonial section */
 .testimonial-header {
@@ -479,7 +499,13 @@ hr {
 }
 
 /* right carousel */
-
+.carousel-two {
+  background-color: var(--white-color);
+  border: 1.5px solid var(--gray-color-);
+}
+.carousel-two p {
+  color: var(--accent-color);
+}
 /* yet to style */
 
 /* signup section */
