@@ -1,0 +1,148 @@
+:root {
+  /* colors */
+  /* --primary-color: #722ed1; */
+  --primary-accent-color: #f7f0ff;
+  --secondary-color: var(--white-color);
+  --white-color: #ffffff;
+
+  /* fonts */
+  --font-family-primary: "Poppins", sans-serif;
+  --font-xs: clamp(1rem, 10vw, 3rem);
+
+  --font-size-primary: 1rem;
+  --font-size-secondary: 0.812rem;
+
+  /* Text */
+  --font-weight-sm: 400;
+  --font-weight-md: 500;
+  --font-weight-normal: 600;
+  --font-weight-xl: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+svg,
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: var(--font-family-primary);
+  background-color: var(--primary-color);
+}
+
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--gray-color-);
+  font-weight: 500;
+}
+/* Container stylings */
+.container {
+  max-width: 1300px;
+  margin-inline: auto;
+  padding: 1rem;
+  padding-top: 1.6rem;
+  overflow: hidden;
+}
+.container-inverted {
+  max-width: 1300px;
+  margin-inline: auto;
+  padding: 1rem;
+  padding-top: 1.6rem;
+  background-color: var(--white-color);
+  max-width: 100vw;
+}
+
+/* utility Classes */
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-sm {
+  gap: 0.5rem;
+}
+.gap-sm {
+  gap: 2rem;
+}
+.gap-5 {
+  gap: 5rem;
+}
+.gap-10 {
+  gap: 10rem;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.text-color-white {
+  color: var(--white-color);
+}
+/* btn styles */
+.btn-primary {
+  border: none;
+  padding: 0.8rem 2.2rem;
+  border-radius: 2rem;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.btn-primary:hover {
+  background-color: var(--white-color);
+  color: var(--secondary-color);
+  transition: 0.3s ease-in-out;
+}
+.btn-inverted {
+  border: 2px solid var(--white-color);
+  padding: 0.7rem 1.8rem;
+  border-radius: 2rem;
+  background: transparent;
+  color: var(--white-color);
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.btn-inverted:hover {
+  background-color: var(--white-color);
+  color: var(--secondary-color);
+  transition: 0.3s ease-out;
+  border: 2px solid var(--secondary-color);
+}
+
+/* navigation */
+.main-nav {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ul {
+  gap: 1.5rem;
+}
+.nav-links:hover {
+  color: var(--white-color);
+  transition: 0.3s ease-out;
+}
