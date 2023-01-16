@@ -55,7 +55,7 @@ a {
 }
 /* Container stylings */
 .container {
-  max-width: 1300px;
+  max-width: 1000px;
   margin-inline: auto;
   padding: 1rem;
   padding-top: 1.6rem;
@@ -135,9 +135,9 @@ a {
 }
 
 /* navigation */
-.main-nav {
+header {
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 ul {
   gap: 1.5rem;
