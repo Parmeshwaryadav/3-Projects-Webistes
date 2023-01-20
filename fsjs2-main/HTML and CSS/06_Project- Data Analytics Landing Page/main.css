@@ -7,6 +7,7 @@
   --primary-accent-color: #f7f0ff;
   --secondry-color: #ffffff;
   --secondary-accent-color: #a6a6b8;
+  --secondary-accent-new: #7b7e83;
 
   /* text color */
   --primary-text-color: #160637;
@@ -144,6 +145,11 @@ option {
   border-right-color: #722ed1;
 }
 
+/* main hero */
+.main-hero {
+  padding-top: 5%;
+}
+
 /* left hero section */
 .left-heading-text {
   background-color: var(--primary-accent-color-new);
@@ -163,4 +169,14 @@ option {
 
 .left-hero {
   max-width: 50%;
+}
+.left-hero h1 {
+  font-size: var(--font-xs);
+}
+.hero-subtext {
+  color: var(--secondary-accent-new);
+  font-weight: 500;
+  padding-top: 1.2rem;
+}
+button {
 }
