@@ -141,6 +141,11 @@ header {
   color: var(--white-color);
   transition: 0.3s ease-out;
 }
+select {
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+}
 
 /* main hero */
 .main-hero {
@@ -169,10 +174,15 @@ header {
 }
 .left-hero h1 {
   font-size: var(--font-xs);
+  padding-top: 1rem;
+  line-height: 3.5rem;
 }
 .hero-subtext {
   color: var(--secondary-accent-new);
   font-weight: 500;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
+}
+.hero-buttons {
+  padding-top: 1rem;
 }
