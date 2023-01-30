@@ -244,3 +244,11 @@ select {
 }
 
 /* product stacks section */
+.product-stack {
+  justify-content: space-between;
+}
+.right-proct-stack {
+  max-width: 50%;
+}
+.product-main-header {
+}
