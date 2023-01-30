@@ -245,10 +245,20 @@ select {
 
 /* product stacks section */
 .product-stack {
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15%;
 }
 .right-proct-stack {
-  max-width: 50%;
+  /* max-width: 50%; */
 }
 .product-main-header {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.product-main-sub-header {
+  color: var(--text-gray-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+  p
 }
