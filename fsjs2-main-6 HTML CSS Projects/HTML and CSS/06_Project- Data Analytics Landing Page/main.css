@@ -141,6 +141,10 @@ a {
 header {
   justify-content: space-between;
 }
+.gradient {
+  background-color: linear-gradient(#f5f7f6, #e8f4ff);
+}
+
 .nav-links:hover {
   color: var(--white-color);
   transition: 0.3s ease-out;
