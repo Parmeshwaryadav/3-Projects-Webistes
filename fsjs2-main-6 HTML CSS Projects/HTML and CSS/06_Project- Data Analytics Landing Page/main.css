@@ -274,6 +274,7 @@ select {
 .product-stack {
   flex-wrap: wrap;
   gap: 15%;
+  padding-top: 3rem;
 }
 .product-main-header {
   font-size: 1.8rem;
@@ -293,4 +294,29 @@ select {
 .rev-product-stack {
   flex-wrap: wrap;
   gap: 22%;
+  padding-top: 4rem;
+}
+
+/* left side products-icon */
+.products-icon-two {
+  background-color: var(--primary-accent-color);
+  width: 14.5rem;
+  padding: 0.4rem;
+  gap: 0.5rem;
+  border-radius: 1.2rem;
+}
+
+/* quote section */
+.gradient-cto {
+  background-image: linear-gradient(#fcf8ff, #e9f4ff);
+  rotate: -5deg;
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  z-index: -1;
+}
+.quote-section {
+}
+.quote-section q {
+  text-align: center;
 }
